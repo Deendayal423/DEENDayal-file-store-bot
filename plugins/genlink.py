@@ -91,7 +91,7 @@ async def gen_link_batch(bot, message):
         if msg.empty or msg.service:
             continue
         if not msg.media:
-            # only media messages supported.
+            # only media messages supporte
             continue
         try:
             file_type = msg.media
